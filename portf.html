@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil</title>
+    <link rel="stylesheet" href="portofolio.css" />
+    <script src="portofolio.js"></script>
+
+    <!-- Background GIF CSS -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+
+        /* GIF sebagai background */
+        background: url("p.gif") no-repeat center center fixed;
+        background-size: cover;
+      }
+
+      /* overlay gelap biar teks terbaca */
+      .overlay {
+        position: fixed;
+        inset: 0;
+        background: rgb(13, 0, 65);
+        z-index: -1;
+      }
+
+      h1,
+      p,
+      h2,
+      a,
+      footer {
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- overlay -->
+    <div class="overlay"></div>
+
+    <center>
+      <section id="welcome-section">
+        <h1>Hey I'm Bambang Saktiawan</h1>
+        <p><i>Mahasiswa Informatika</i></p>
+      </section>
+
+      <section id="projects" class="project-section">
+        <h2 class="projects-section-header">Sosial Media</h2>
+      </section>
+
+      <div class="codetheworld-io">
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/aiwantnj/" style="--color: #0072b1">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <!-- TikTok -->
+        <a
+          href="https://www.tiktok.com/@awantnj?_t=8hFTGmy21z8&_r=1"
+          style="--color: #e1306c"
+        >
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/qr/JK2XPL54SS65K1" style="--color: #33e67b">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+        <!-- Twitter -->
+        <a href="https://twitter.com/saktiaw5" style="--color: #ff0050">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+
+        <!-- Spotify -->
+        <a
+          href="https://open.spotify.com/user/31wbngsjviwhpzpdhblfnbrrhdu4?si=yjTL5NFOTpG_Tn4Pnro89w"
+          style="--color: #555b35"
+        >
+          <i class="fa-brands fa-spotify"></i>
+        </a>
+
+        <!-- YouTube -->
+        <a
+          href="https://www.youtube.com/channel/UCigMH-B1XFKdFdaAxfPZdEQ"
+          style="--color: #6023fe"
+        >
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+
+        <footer>
+          <a href="#">
+            <btn class="Sosial media"> Message Me </btn>
+          </a>
+        </footer>
+      </div>
+    </center>
+  </body>
+</html>
